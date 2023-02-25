@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+
+<!--Header Navigation-->
+    <header class="box-shadow">
+        <div class="section logo">
+            <span class="white">Dico</span><span class="green">ding</span>
+        </div>
+        <div class="section">
+            <ul>
+                <li><a href="#about" target="_self" onclick="scrollToSection(event)">About</a></li>
+                <li><a href="#skills" target="_self">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+   <main>
+       <section id="hero">
+           <div class="container">
+               <div id="particle-js" ></div>
+               <div class="content">
+                   <h2 class="hero-title">Hi There, <br /> I'm Irfan Akbari Habibi</h2>
+                   <p>I'm Into A <span class="typing-text"></span></p>
+                   <div class="socials">
+                       <ul class="social-icons">
+                           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/jigar-sable/" target="_blank" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-linkedin"></i></a></li>
+                           <li><a class="github" aria-label="GitHub" href="https://github.com/jigar-sable" target="_blank" data-sr-id="7" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-github"></i></a></li>
+                           <li><a class="twitter" aria-label="Twitter" href="https://twitter.com/jigar_sable" target="_blank" data-sr-id="9" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-twitter"></i></a></li>
+                           <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-telegram-plane"></i></a></li>
+                           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev" data-sr-id="13" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-instagram"></i></a></li>
+                           <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank" data-sr-id="15" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all 0.2s linear 0s, opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;"><i class="fab fa-dev"></i></a></li>
+                       </ul>
+                   </div>
+                   <a href="#about" target="_self" onclick="scrollToSection(event)" id="buttonAbout" class="button">Tentang Saya</a>
+               </div>
+               <div class="image">
+                   <img src="https://jigarsable.netlify.app/assets/images/hero.png" alt="nothing" />
+               </div>
+           </div>
+       </section>
+
+
+       <aside id="about">
+           <h2 class="content-title"><i class="fas fa-user-alt"></i> About Me</h2>
+           <div class="content">
+               <img class="profile-image" src="assets/img/profile.png" alt="nothing" />
+               <div>
+                   <h2 class="about-title">I'm Irfan</h2>
+                   <p><b>Backend Developer</b></p>
+                   <br />
+                   <p style="font-size: 1.2rem">I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+                   <br />
+                   <p class="bio">Age : 19</p>
+                   <p class="bio">Phone : 082276880570</p>
+                   <p class="bio">Email : irfan.akbarihabibi@gmail.com</p>
+                   <p class="bio">Place : Medan</p>
+               </div>
+           </div>
+       </aside>
+
+       <article id="skills">
+           <br/>
+           <h2 class="content-title" style="color: white"><i class="fas fa-user"></i> Skills</h2>
+           <div class="skilbox">
+               <div class="row" id="skillsContainer">
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png" alt="skill">
+                           <span>ReactJs</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/fluency/48/000000/node-js.png" alt="skill">
+                           <span>ExpressJS</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="skill">
+                           <span>NodeJS</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="skill">
+                           <span>Firebase</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/fluency/48/000000/flutter.png" alt="skill">
+                           <span>Flutter</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/48px-Tailwind_CSS_Logo.png" alt="skill">
+                           <span>TailwindCSS</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="skill">
+                           <span>Bootstrap</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="skill">
+                           <span>HTML</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/css3.png" alt="skill">
+                           <span>CSS</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="skill">
+                           <span>JavaScript</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="skill">
+                           <span>Java</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/kotlin.png" alt="skill">
+                           <span>Kotlin</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/offices/48/000000/php-logo.png" alt="skill">
+                           <span>PHP</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="skill">
+                           <span>Python</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="skill">
+                           <span>C++</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="skill">
+                           <span>MongoDB</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="skill">
+                           <span>MySQL</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="skill">
+                           <span>PostgreSQL</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/heroku.png" alt="skill">
+                           <span>Heroku</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png" alt="skill">
+                           <span>DigitalOcean</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/ios-filled/48/1169ae/jquery.png" alt="skill">
+                           <span>jQuery</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/git.png" alt="skill">
+                           <span>Git VCS</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/glyph-neue/48/ffffff/github.png" alt="skill">
+                           <span>GitHub</span>
+                       </div>
+                   </div>
+                   <div class="bar">
+                       <div class="info">
+                           <img src="https://img.icons8.com/color/48/000000/wordpress.png" alt="skill">
+                           <span>WordPress</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <br/>
+       </article>
+
+       <footer>
+           <div class="">
+               <p>&copy; 2023 My Portfolio</p>
+           </div>
+       </footer>
+   </main>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
